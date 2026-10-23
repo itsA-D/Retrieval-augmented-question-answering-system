@@ -1,0 +1,11 @@
+pymupdf
+llama-index-core
+llama-index-vector-stores-chroma
+llama-index-embeddings-huggingface
+llama-index-llms-ollama
+chromadb
+sentence-transformers
+streamlit
+python-dotenv
+requests
+pytest
