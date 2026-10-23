@@ -1,7 +1,7 @@
-# OPPO Enco W31 Manual Assistant (RAG)
+# DocuQuery  
 
 A retrieval-augmented question-answering system over the OPPO Enco W31 quick
-start guide (`data/Assessment.pdf`). Answers are generated only from
+start guide (`data/`). Answers are generated only from
 retrieved manual content, every answer carries a deterministic citation, and
 questions the manual doesn't cover are refused rather than guessed.
 
@@ -15,7 +15,7 @@ charging, battery replacement, ANC).
 ## 2. Architecture
 
 ```text
-Assessment.pdf
+
    -> PyMuPDF (page structure, English-page isolation, rendering)
    -> one-time OCR transcription of English pages (see "Why OCR" below)
    -> section-aware chunking + metadata
